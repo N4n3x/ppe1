@@ -1,0 +1,43 @@
+.tablejs{
+    margin: auto;
+    padding: 5px;
+    background-color: white;
+    width: 80%;
+    border-collapse: collapse;
+    border: 2px black solid;
+}
+
+.tablejs caption {
+    color: white;
+    font-weight: bold;
+}
+
+.tablejs th {
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.tablejs td {
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.tablejs form {
+    padding: 2px;
+    border: 1px solid black;
+}
+
+#formEdit{
+    width: 50%;
+    margin: auto;
+}
+
+#dynContentForm{
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#submit{
+    width: 100%;
+}

@@ -1,0 +1,45 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+    <title>PPE 2 - Gestion parc auto</title>
+    <meta http-equiv="Content-Type" content="text/HTML; charset=UTF8"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/navigation.css"/>
+</head>
+    <body>
+        <div id="menu"></div>
+        <script type="text/javascript" src="modele/js/navigation.js"></script>
+        <script type="text/javascript">
+            var dataNav = [
+                {
+                    innerHTML:"Accueil",
+                    type:"button",
+                    id:"btnAccueil",
+                    onClick:"location.href='http://localhost/PPE1.3/index.php?action=accueil'"
+                },
+                {
+                    innerHTML:"Salles",
+                    type:"button",
+                    id:"btnSalle",
+                    onClick:"location.href='http://localhost/PPE1.3/index.php?action=salle'"
+                },
+                {
+                    innerHTML:"Ligues",
+                    type:"button",
+                    id:"btnLigue",
+                    onClick:"location.href='http://localhost/PPE1.3/index.php?action=ligue'"
+                },
+                {
+                    innerHTML:"Réservations",
+                    type:"button",
+                    id:"btnReservation",
+                    onClick:"location.href='http://localhost/PPE1.3/index.php?action=reservation'"
+                },
+                {
+                    innerHTML:"Déconnexion",
+                    type:"button",
+                    id:"btnDeconnexion",
+                    onClick:"location.href='http://localhost/PPE1.3/index.php?action=log'"
+                }
+            ];
+            const nav = new Navigation('menu',dataNav);
+        </script>

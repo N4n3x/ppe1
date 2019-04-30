@@ -1,0 +1,48 @@
+* {
+    margin:0px;
+	padding:0px;
+    border:0px;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+}
+
+.caps input, .caps textarea, .caps select, .caps button {
+    width : 200px;
+    margin: 3px;
+    font-size: 20px;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 2px;
+  
+    -webkit-box-sizing: border-box; /* Pour les anciennes versions des navigateurs WebKit */
+       -moz-box-sizing: border-box; /* Pour tous les navigateurs Gecko */
+            box-sizing: border-box;
+}
+
+.caps {
+    background-color: rgba(255, 255, 255, 0.822);
+    border-radius: 3px;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    padding: 10px;
+    text-align: center;
+}
+
+.caps h2{
+    margin: 15px 5px 20px 5px;
+}
+
+#rep {
+    color: red;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}

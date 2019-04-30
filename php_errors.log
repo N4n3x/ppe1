@@ -1,0 +1,38 @@
+[10-Feb-2019 14:53:09 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (D:\Programmes\wamp64\www) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 14:53:09 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 14:53:44 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (D:\Programmes\wamp64\www) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 14:53:44 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 14:58:06 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (D:\Programmes\wamp64\www) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 14:58:06 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 14:58:07 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (D:\Programmes\wamp64\www) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 14:58:07 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 14:58:16 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (D:\Programmes\wamp64\www) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 14:58:16 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 14:59:05 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (D:\Programmes\wamp64\www) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 14:59:05 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 14:59:07 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (D:\Programmes\wamp64\www) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 14:59:07 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 14:59:14 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (D:\Programmes\wamp64\www) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 14:59:14 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 15:01:12 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (D:\Programmes\wamp64\www) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 15:01:12 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 15:01:12 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (D:\Programmes\wamp64\www) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 15:01:12 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 15:01:13 UTC] PHP Warning:  session_start(): open_basedir restriction in effect. File(C:\WINDOWS\TEMP) is not within the allowed path(s): (D:\Programmes\wamp64\www) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 15:01:13 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: files (path: ) in D:\Programmes\wamp64\www\PPE1.3\index.php on line 6
+[10-Feb-2019 15:02:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ in D:\Programmes\wamp64\www\PPE1.3\modele\php\bdd.php:20
+Stack trace:
+#0 D:\Programmes\wamp64\www\PPE1.3\modele\php\bdd.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 D:\Programmes\wamp64\www\PPE1.3\modele\php\Config\configBdd.php(18): SQL->__construct(0)
+#2 D:\Programmes\wamp64\www\PPE1.3\index.php(18): ppe1->__construct()
+#3 {main}
+  thrown in D:\Programmes\wamp64\www\PPE1.3\modele\php\bdd.php on line 20
+[10-Feb-2019 15:02:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ in D:\Programmes\wamp64\www\PPE1.3\modele\php\bdd.php:20
+Stack trace:
+#0 D:\Programmes\wamp64\www\PPE1.3\modele\php\bdd.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 D:\Programmes\wamp64\www\PPE1.3\modele\php\Config\configBdd.php(18): SQL->__construct(0)
+#2 D:\Programmes\wamp64\www\PPE1.3\index.php(18): ppe1->__construct()
+#3 {main}
+  thrown in D:\Programmes\wamp64\www\PPE1.3\modele\php\bdd.php on line 20

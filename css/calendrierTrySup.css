@@ -1,0 +1,221 @@
+#calendrier{
+    width: 1200px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+#tbContCalendrier{
+    border-collapse: collapse;
+}
+
+.calendrier{
+    background:#fff;
+    border-radius:4px;
+    color:#222629;
+    overflow:hidden;
+}
+
+
+.calendrier .header{
+    background:rgb(255, 123, 0);
+    height:40px;
+    line-height:40px;
+    text-align:center;
+}
+
+.calendrier .titreCalendrier{
+    display:inline-block;
+    font-weight:bold;
+}
+
+.calendrier button{
+    background:none;
+    color:inherit;
+    cursor:pointer;
+    font-family:Consolas;
+    font-size:1.75rem;
+    height:100%;
+    padding:0 15px;
+}
+
+.calendrier button:hover{
+    color:#009FB7;
+}
+
+.calendrier button:first-child{
+    float:left;
+}
+
+.calendrier button:last-child{
+    float:right;
+}
+
+.calendrier .cell{
+    background:#fff;
+    color:#000000;
+    box-sizing:border-box;
+    display:inline-block;
+    height: 40;
+    /* padding:10px 0; */
+    text-align:center;
+    width:calc(100% / 8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+}
+
+.calendrier .past{
+    background:rgba(0, 0, 0, 0.199);
+    color:rgb(0, 0, 0);
+}
+
+.calendrier .day{
+    font-size:.8rem;
+    padding:8px 0;
+}
+
+.calendrier .today{
+    background:#009FB7;
+    color:#fff;
+    font-weight: bold;
+}
+
+.calendrier .navSemaine{
+    background:#009FB7;
+    color: white;
+}
+
+.calendrier #tbContCalendrier{
+    width: 100%;
+}
+
+.calendrier .reserver{
+    font-size: 12px;
+}
+
+.calendrier .cell td{
+    height: 20px;
+    
+}
+
+.calendrier span{
+    background-color:rgba(6, 156, 18, 0.363);
+    color: rgb(255, 255, 255);
+    margin: 1px;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 20px;
+    padding: 3px;
+}
+
+#dynContentForm{
+    background-color: rgb(221, 216, 216);
+    margin: auto;
+    border: 2px solid black;
+    padding: 3px;
+    margin-bottom: 3px;
+    border-radius: 2px;
+}
+
+#dynContentForm #submit{
+    padding: 3px;
+    width: 100px;
+    background-color: rgba(85, 128, 185, 0.712);
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+#dynContentForm input{
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+#dynContentForm p{
+    font-weight: bold;
+    padding: 3px;
+    text-align: right;
+}
+
+[class="08:00"] td{
+    position: relative;
+}
+
+.reservation {
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: left;
+    padding: 3px;
+    background-color: rgb(81, 112, 255);
+}
+/* FORMULAIRE */
+input, select
+{
+    font-weight: bold;
+    padding: 1px;
+}
+
+input[type=number]
+{
+    width: 40px;
+}
+
+input[type=submit]
+{
+    width: 100%;
+}
+
+/* .reservation p{
+    margin: 5px;
+} */
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+ /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(65, 149, 65);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "OUI";
+    text-align: center;
+    width: 54px;
+    /* height: 28px; */
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: rgb(134, 20, 20);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px rgb(134, 20, 20);
+  }
+  
+  input:checked + .slider:before {
+    content: "NON";
+  }
