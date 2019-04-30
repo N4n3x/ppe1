@@ -6,11 +6,11 @@ include("modele/php/bdd.php");
 //####### Base de données mydb ###########################################################################
 //##########################################################################################################
 
-Class ppe1 extends sql{
+Class ahernandez extends sql{
   protected $Serveur = 'localhost';
-  protected $Bddnom = 'ppe1.2';
-  protected $Identifiant = 'root';
-  protected $Mdp = '';
+  protected $Bddnom = 'ahernandez';
+  protected $Identifiant = 'ahernandez';
+  protected $Mdp = 'aifccSIO';
   protected $tbJointures=array();
 
 
@@ -24,13 +24,13 @@ Class ppe1 extends sql{
 //####### Tables de mydb #################################################################################
 //##########################################################################################################
 
-class ligue extends ppe1{};
-class reservation extends ppe1{
+class ligue extends ahernandez{};
+class reservation extends ahernandez{
   public function addReservation($tb){
     $sql='call resSalle("'.$tb["reservation_debut"].'","'.$tb["reservation_fin"].'",'.$tb["salle_informatise"].','.$tb["ligue_num"].','.$tb["salle_places"].')';
     return $this->exeReq($sql);
   }
 };
-class salle extends ppe1{};
-class utilisateur extends ppe1{};
+class salle extends ahernandez{};
+class utilisateur extends ahernandez{};
 ?>
