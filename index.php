@@ -116,6 +116,10 @@
         case "test":
             var_dump($_POST);
         break;
-
+        
+        case "addRndRes":
+            $start = new DateTime("2019-06-01 08:00:00");
+            print_r(ResGeneration(10,$start));
+        break;
     }
 ?>

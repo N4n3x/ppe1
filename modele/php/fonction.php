@@ -145,4 +145,27 @@
         }
         return $tbData;
     }
+
+    function ResGeneration($nbRes, $dateStart){
+        $reservations = new reservation();
+        
+        for($j = 1; $j < 30; $j++){
+            for($i = 0; $i < 5; $i++){
+                $dateEnd = new DateTime();
+                $dateStart->setDate($dateStart->format("Y"), $dateStart->format("m"), $j);
+                $dateEnd->setDate($dateStart->format("Y"), $dateStart->format("m"), $j);
+                $start = rand(8,16);
+                $dateStart->setTime($start,0,0);
+                $end = $start + rand(1,4);
+                $dateEnd->setTime($end,0,0);
+                $laReservation["reservation_debut"] = $dateStart->format('Y-m-d H:i:s');
+                $laReservation["reservation_fin"] = $dateEnd->format('Y-m-d H:i:s');
+                $laReservation["salle_informatise"] = rand(0,1); // 0 ou 1
+                $laReservation["ligue_num"] = rand(1,10); // 1 à 10
+                $laReservation["salle_places"] = 18; // 18 ou 30
+                $res = $reservations->addReservation($laReservation);
+            }
+        }
+        return [$start,$end,$dateStart,$dateEnd];
+    }
 ?>
