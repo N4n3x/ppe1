@@ -146,6 +146,12 @@
         return $tbData;
     }
 
+    // function DisplayOccupation($year){
+    //     $lesReservations = new reservation();
+    //     $tbOccup = $lesReservations->Occupation($year);
+    //     return $tbOccup;
+    // }
+
     function ResGeneration($nbRes, $dateStart){
         $reservations = new reservation();
         

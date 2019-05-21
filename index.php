@@ -113,6 +113,11 @@
             print_r($msg);
         break;
 
+        // case "occupation":
+        //     $occup = DisplayOccupation("2019");
+        //     print_r($occup);
+        // break;
+
         case "test":
             var_dump($_POST);
         break;
