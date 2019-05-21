@@ -776,7 +776,7 @@ function viderNode(node){
 
 function getLigue(){
     var ligue;
-    jQuery.ajax({method : "POST", url : "http://localhost/PPE1.3/index.php?action=getSession", async: false}).done(function(reponse){
+    jQuery.ajax({method : "POST", url : "./index.php?action=getSession", async: false}).done(function(reponse){
         ligue = reponse;
     });
     return ligue;
