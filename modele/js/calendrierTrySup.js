@@ -12,7 +12,7 @@ class Calendrier{
         this.domElement = document.querySelector(domTarget);
 
         //liste jours et mois
-        this.monthList = new Array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juilvar', 'aôut', 'septembre', 'octobre', 'novembre', 'décembre');
+        this.monthList = new Array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre');
         this.dayList = new Array('lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', 'dimanche');
 
         //date demandé
