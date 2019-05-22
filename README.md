@@ -24,6 +24,11 @@ Dans phpMyAdmin créer la base de données `ahernandez` puis importer le script 
     ./bdd/ahernandez.sql
 
 ## Utilisation
-
+### Connexion
+![Connexion](./doc/connexion.PNG)
+### Gestion des salles et des ligues
+![Gestion salles & ligues](./doc/salles.PNG)
+### Interface de réservation
+![Réservation](./doc/nouvelleReservation.PNG)
 ## Documentation
 [Lien vers la documentation](http://alexandrehernandez.fr/portfolio/documentations/ppe1)
